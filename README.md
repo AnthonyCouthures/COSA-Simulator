@@ -122,12 +122,15 @@ If you use this simulator in your research, please cite the accompanying paper a
 
 **Software:**
 ```bibtex
-@software{cosa-simulator-2025,
-  title   = {COSA-Simulator: A Jupyter Simulator for Nonlinear Consensus and Synchronization},
-  shorttitle = {COSA-Simulator},
-  author  = {Couthures, Anthony},
-  year    = {2025},
-  url     = {https://github.com/AnthonyCouthures/COSA-Simulator}
+@software{anthony_couthures_2025_17407391,
+  author       = {Anthony Couthures},
+  title        = {AnthonyCouthures/COSA-Simulator: First Release},
+  month        = oct,
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {Main},
+  doi          = {10.5281/zenodo.17407391},
+  url          = {https://doi.org/10.5281/zenodo.17407391},
 }
 ```
 
