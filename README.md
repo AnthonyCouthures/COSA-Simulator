@@ -73,7 +73,8 @@ Follow these steps to set up and run the simulator:
     ```bash
     jupyter lab
     # or: jupyter notebook
-    ```5.  **Open and run the notebook:** Navigate to `COSA - Simulator/` and open `Interface.ipynb`. Execute the cells in order to launch the interactive interface.
+    ```
+5.  **Open and run the notebook:** Navigate to `COSA - Simulator/` and open `Interface.ipynb`. Execute the cells in order to launch the interactive interface.
 
 ## 4. Repository Structure
 
@@ -81,7 +82,7 @@ The repository is organized to separate the user interface from the core simulat
 
 ```
 COSA-Simulator//
-│   └── interface.ipynb     # The main Jupyter notebook with the interactive UI.
+│   ├── interface.ipynb     # The main Jupyter notebook with the interactive UI.
 │   ├── __init__.py         # Makes the Simulator directory a Python package.
 │   └── ...                 # Core Python modules for simulation, graphing, etc.
 ├── requirements.txt        # A list of Python package dependencies.
@@ -103,10 +104,15 @@ If you use this simulator in your research, please cite the accompanying paper a
 **Paper:**
 ```bibtex
 @article{couthures2025global,
-  title={Global synchronization of multi-agent systems with nonlinear interactions},
-  author={Couthures, Anthony and Varma, Vineeth S. and Lasaulce, Samson and Mor{\u{a}}rescu, Irinel-Constantin},
-  journal={arXiv preprint arXiv:2503.10205},
-  year={2025}
+  title = {Global {{Synchronization}} of {{Multi-Agent Systems With Nonlinear Interactions}}},
+  author = {Couthures, Anthony and Varma, Vineeth S. and Lasaulce, Samson and Morărescu, Irinel-Constantin},
+  year = {2025},
+  journal = {IEEE Control Systems Letters},
+  volume = {9},
+  pages = {354--359},
+  issn = {2475-1456},
+  doi = {10.1109/LCSYS.2025.3573563},
+  url = {https://ieeexplore.ieee.org/document/11015590}
 }
 ```
 
