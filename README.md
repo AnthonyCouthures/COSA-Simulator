@@ -4,7 +4,11 @@
 
 COSA-Simulator is an interactive Jupyter Notebook for studying consensus and synchronization in multi-agent systems with nonlinear interactions. It serves as the official companion tool for the paper: **"Global synchronization of multi-agent systems with nonlinear interactions"** and upcoming ones.
 
-This simulator allows researchers and students to visually and intuitively explore the complex dynamics of networked agents. Users can manipulate network topology, define custom nonlinear signal functions, and observe the system's evolution in real-time, making it an ideal tool for both research and educational purposes.
+This simulator allows researchers and students to visually and intuitively explore the complex dynamics of networked agents. Users can manipulate network topology, define custom nonlinear signal functions, and observe the system's evolution in real-time, making it an ideal tool for both research and educational purposes. 
+
+[![DOI](https://zenodo.org/badge/1080480523.svg)](https://doi.org/10.5281/zenodo.17407390)
+
+
 
 ## 1. Scientific Context
 
