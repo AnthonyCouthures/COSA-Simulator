@@ -1,0 +1,4 @@
+# Unpinned deps auto-extracted from notebook import statements; add/remove/pin as needed.
+IPython
+Simulator
+ipywidgets

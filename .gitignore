@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*.nbconvert/
+*.nb.html
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Data / outputs (add your own patterns here)
+data/
+outputs/
+results/
+
+# Cache
+*.log
+.cache/
