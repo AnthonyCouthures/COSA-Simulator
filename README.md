@@ -40,9 +40,9 @@ If you use this simulator in your research, please cite:
 ```text
 @software{cosa-simulator,
   title = {COSA-Simulator},
-  author = {Your Name},
+  author = {Anthony Couthures},
   year = {2025},
-  url = {https://github.com/your-username/COSA-Simulator}
+  url = {https://github.com/AnthonyCouthures/COSA-Simulator}
 }
 ```
 
