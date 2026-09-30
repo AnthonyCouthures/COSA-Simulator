@@ -4,8 +4,6 @@ from ipywidgets import (VBox, HBox, Layout, Dropdown, IntSlider, FloatSlider,
                         Checkbox, IntText, Textarea, Output, Text, FloatText,
                         Button, Label) # Added Label
 
-# generate opinion in double precision for all functions
-np.float64 = np.float_
 
 
 
