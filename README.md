@@ -59,13 +59,11 @@ Follow these steps to set up and run the simulator:
 2.  **Create and activate a virtual environment:**
     ```bash
     # Create the environment
-    python -m venv .venv
+    conda create -n "COSA_Simulator" python=3.11.15 ipython
     
-    # Activate it (Linux/macOS)
-    source .venv/bin/activate
+    # Activate it 
+    conda activate COSA_Simulator
     
-    # Or, activate it (Windows)
-    # .venv\Scripts\activate
     ```
 
 3.  **Install the required dependencies:**
@@ -73,12 +71,7 @@ Follow these steps to set up and run the simulator:
     pip install -r requirements.txt
     ```
 
-4.  **Launch Jupyter:**
-    ```bash
-    jupyter lab
-    # or: jupyter notebook
-    ```
-5.  **Open and run the notebook:** Navigate to `COSA - Simulator/` and open `Interface.ipynb`. Execute the cells in order to launch the interactive interface.
+4.  **Open and run the notebook:** Navigate to `COSA - Simulator/` and open `Interface.ipynb`. Execute the cells in order to launch the interactive interface.
 
 ## 4. Repository Structure
 
