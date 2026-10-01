@@ -1,10 +1,10 @@
-# COSA-Simulator: Nonlinear Consensus & Synchronization
+# COSA-Simulator: Nonlinear Opinion dynamics with Consensus & Polarization
 
 ![Interface overview](Screenshot.png)
 
-COSA-Simulator is an interactive Jupyter Notebook for studying consensus and synchronization in multi-agent systems with nonlinear interactions. It serves as the official companion tool for the paper: **"Global synchronization of multi-agent systems with nonlinear interactions"** and upcoming ones.
+COSA-Simulator is an interactive Jupyter Notebook for studying consensus and polarization in multi-agent systems with nonlinear interactions. It serves as the official companion tool for the paper: **"Global synchronization of multi-agent systems with nonlinear interactions"** and upcoming ones.
 
-This simulator allows researchers and students to visually and intuitively explore the complex dynamics of networked agents. Users can manipulate network topology, define custom nonlinear signal functions, and observe the system's evolution in real-time, making it an ideal tool for both research and educational purposes. 
+This simulator allows researchers and students to visually and intuitively explore the dynamics of networked agents. Users can manipulate network topology, define custom nonlinear signal functions, and observe the system's evolution in real-time, making it an interesting tool for both research and educational purposes. 
 
 [![DOI](https://zenodo.org/badge/1080480523.svg)](https://doi.org/10.5281/zenodo.17407390)
 
@@ -12,7 +12,7 @@ This simulator allows researchers and students to visually and intuitively explo
 
 ## 1. Scientific Context
 
-The simulator implements the normalized consensus-like dynamics studied in the paper, which models how agents in a network update their state based on information from their neighbors. The system is defined by the following differential equation on an undirected graph with adjacency matrix $A$ and degree matrix $D$:
+The simulator implements the Continuous Opinion Signaled Action (COSA) dynamics. It is a consensus-like dynamics studied where agent learn not from their neightbors opinion but fom their peers actions. The system is defined by the following differential equation on an undirected graph with adjacency matrix $A$ and degree matrix $D$:
 
 $$\Large \dot{x}(t) = D^{-1}A s(x(t)) - x(t)$$
 
@@ -21,7 +21,7 @@ Key elements of this model include:
 *   **$s(\cdot)$**: A general, non-decreasing nonlinear signal function that models how agents perceive or communicate their states. This can represent phenomena like estimation biases, saturation, or quantization effects.
 *   **$D^{-1}A$**: The normalized adjacency matrix of the network, which defines the topology of agent interactions.
 
-The research reveals that synchronization equilibria correspond to the fixed points of the signal function $s(\cdot)$, and their stability is determined by the local behavior (underestimation or overestimation) of the signal around these points. This simulator provides a hands-on environment to test these theoretical findings.
+The paper reveals that synchronization equilibria correspond to the fixed points of the signal function $s(\cdot)$, and their stability is determined by the local behavior (underestimation or overestimation) of the signal around these points. Moreover, additional research establish when polarization emerge: when the product of the connectivity measure of the graph $\lambda_{N-1} (D^{-1}A)$, and the amplification factor $K$ of the signal function is sufficiently high i.e., $\lambda_{N-1}(D^{-1}A) K >1$.  This simulator provides a hands-on environment to test these theoretical findings.
 
 ## 2. Features
 
@@ -101,7 +101,7 @@ If you use this simulator in your research, please cite the accompanying paper a
 **Paper:**
 ```bibtex
 @article{couthures2025global,
-  title = {Global {{Synchronization}} of {{Multi-Agent Systems With Nonlinear Interactions}}},
+  title = {Global Synchronization of Multi-Agent Systems With Nonlinear Interactions},
   author = {Couthures, Anthony and Varma, Vineeth S. and Lasaulce, Samson and Morărescu, Irinel-Constantin},
   year = {2025},
   journal = {IEEE Control Systems Letters},
